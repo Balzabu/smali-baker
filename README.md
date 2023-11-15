@@ -88,6 +88,10 @@ The project started when I had the idea of automating the injection of Toast Mes
     ```bash
     cd smali-baker
     ```
+ - Install python3 requirements
+    ```bash
+    sudo pip3 install -r requirements.txt
+    ```
  - Execute the script as root with the --setup arguments
     ```bash
     sudo python3 smali-baker.py --setup-requirements --setup-apktool --setup-certificate
