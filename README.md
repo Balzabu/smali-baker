@@ -112,6 +112,6 @@ Please refer to the --help argument output for usage examples.
 | \--decompiled-path {path_to_folder}         | [MANUAL INJECTION] Used to specify the path containing the Decompiled APK                                   |
 | \--smali-file {path_to_file}                | [MANUAL INJECTION] Used to specify the Smali File you want to inject.                                       |
 | \--smali-method                             | [MANUAL INJECTION] Used to specify the Smali Method, within the targeted Smali File, you want to inject.    |
-| \--path-certificate {path_to_certificate}   | Used to specify the path to the keystore we will use to sign the injected APK.                              |
-| \--cert-password {password_for_certificate} | Used to specify the password for the keystore.                                                              |
+| \--cert-path {path_to_certificate}          | Used to specify the path to the keystore we will use to sign the injected APK.                              |
+| \--cert-pass {password_for_certificate}     | Used to specify the password for the keystore.                                                              |
 | \--cert-alias {alias_certificate}           | Used to specify the alias for the keystore.                                                                 |
